@@ -25,8 +25,12 @@ body {
     background-image: url(../img/BG.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 button {
@@ -70,7 +74,6 @@ select {
 /* To-do header */
 .todo-container {
     max-width: 450px;
-    margin: 3rem auto 0;
     background-color: var(--cor-background);
     padding: 1.5rem;
     border-radius: 0.9rem;
